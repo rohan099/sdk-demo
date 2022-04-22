@@ -1,4 +1,4 @@
-let Maths = require('../index')
+let Maths = require('../index');
 test('My SUM', () => {
-  expect(Maths.Sum(1,2)).toBe(3);
+  expect(Maths.Sum(1, 2)).toBe(3);
 });

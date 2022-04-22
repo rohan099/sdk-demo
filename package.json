@@ -1,6 +1,6 @@
 {
   "name": "maths-sdk-rohan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sdk demo",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -20,7 +20,10 @@
     "url": "git+https://github.com/rohan099/sdk-demo.git"
   },
   "author": "Rohan Sharma",
-  "keywords": ["SUM", "Multiply"],
+  "keywords": [
+    "SUM",
+    "Multiply"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rohan099/sdk-demo/issues"
@@ -35,5 +38,10 @@
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.6.3"
   },
-  "files": ["lib/**/*"]
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "maths-sdk-rohan": "^1.0.1"
+  }
 }
