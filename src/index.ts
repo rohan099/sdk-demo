@@ -11,7 +11,7 @@ const Multiply = (...numbers: number[]) => {
 };
 
 const Sub = (...numbers: number[]) => {
-  let aggregateNumber = 1;
+  let aggregateNumber = 0;
   for (const digit of numbers) aggregateNumber -= digit;
   return aggregateNumber;
 };
